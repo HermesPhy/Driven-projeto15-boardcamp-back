@@ -19,7 +19,7 @@ app.use(customersRouter);
 app.use(rentalsRouter);
 
 app.get("/", (req, res) => {
-    res.send("Online")
+    res.send("Online");
   });
 
 app.listen(process.env.PORT || 4000, () => {
