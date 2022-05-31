@@ -1,5 +1,5 @@
 import { newCustomerSchema } from "../schemas/newCustomerSchema.js";
-import db from "../controllers.js";
+import db from "./../db.js";
 
 export async function validateCustomerData(req, res, next) {
     try {
