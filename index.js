@@ -18,9 +18,9 @@ app.use(gamesRouter);
 app.use(customersRouter);
 app.use(rentalsRouter);
 
-app.get("/", (req, res) => {
-    res.send("Online");
-  });
+//app.get("/", (req, res) => {
+//    res.send("Online");
+//  });
 
 app.listen(process.env.PORT || 4000, () => {
     console.log(`Server running on port ${process.env.PORT || 4000}`)
