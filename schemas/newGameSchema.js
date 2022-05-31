@@ -6,4 +6,4 @@ export const newGameSchema = Joi.object ({
     stockTotal: Joi.number().min(1).required(),
     categoryId: Joi.number().required(),
     pricePerDay: Joi.number().min(0.01).required()
-})
+});
