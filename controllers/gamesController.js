@@ -1,6 +1,6 @@
 import db from "../db.js";
 
-export async function getGame(req, res) {
+export async function getGames(req, res) {
     const { queryObject } = res.locals;
     try {
         const result = await db.query(queryObject);

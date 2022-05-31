@@ -25,5 +25,5 @@ export async function setQueryOptionsFromQueryStrings(req, res, next) {
 
     res.locals.queryOptions = queryOptions;
 
-    next()
+    next();
 }
